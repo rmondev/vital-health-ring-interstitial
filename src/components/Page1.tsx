@@ -34,8 +34,8 @@ const Page1 = () => {
             </div>
             {/* //Description Container */}
             <div className='flex flex-col space-y-2 w-1/2 justify-start pt-4 m-0 p-0'>
-              <p className='font-bold text-gray-800 text-2xl'>It's More Than Just a Ring:</p>
-              <p className='italic font-semibold text-gray-800 text-xl'>It's Your Personal Guide to a Better, Longer Life</p>
+              <p className='font-bold text-gray-800 text-2xl'>It&#39;s More Than Just a Ring:</p>
+              <p className='italic font-semibold text-gray-800 text-xl'>It&#39;s Your Personal Guide to a Better, Longer Life</p>
               {/* //Product Image Container */}
               <div className='relative m-0 p-0'>
                 <div className='absolute -top-8 -ml-6'> {/* Adjusted top and left positioning */}
