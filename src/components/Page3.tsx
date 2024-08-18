@@ -8,14 +8,27 @@ const ImageSection = () => {
   return (
     <>
       {isSmallScreen ? (
-        <Image
-          src="/assets/page3/small-background.png"
-          alt="Page 2 Small"
-          layout="responsive"
-          width={320}
-          height={180}
-          className="w-full h-full object-cover"
-        />
+        <div className='relative'>
+          <div className='flex flex-col'>
+            <Image
+              src="/assets/page3/backgroundSml1.png"
+              alt="Page 2 Small"
+              layout="responsive"
+              width={320}
+              height={180}
+              className="w-full h-full object-cover"
+            />
+            <Image
+            src="/assets/page3/backgroundSml2.png"
+            alt="Page 2 Small"
+            layout="responsive"
+            width={320}
+            height={180}
+            className="w-full h-full object-cover"
+            />
+          </div>
+       </div>
+        
       ) : (
         <Image
           src="/assets/page3/background.png"
