@@ -33,7 +33,7 @@ const Page1 = () => {
               <p className='font-bold text-black text-xs p-1'>Rated Excellent Based on 2000+ Reviews</p>
             </div>
             {/* //Description Container */}
-            <div className='flex flex-col space-y-2 w-1/2 justify-start pt-4 m-0 p-0'>
+            <div className='flex flex-col space-y-2 w-1/2 justify-start p-4 m-0 p-0'>
               <p className='font-bold text-gray-800 text-2xl'>It&#39;s More Than Just a Ring:</p>
               <p className='italic font-semibold text-gray-800 text-xl'>It&#39;s Your Personal Guide to a Better, Longer Life</p>
               {/* //Product Image Container */}
@@ -77,7 +77,7 @@ const Page1 = () => {
             </div>
 
             {/* //Button Footer Container */}
-            <div className='flex justify-center items-center bg-white'>
+            <div className='flex justify-center items-center bg-white p-4'>
               <Image
                 src="/assets/page1/greenDot.svg"
                 alt="Secure"
@@ -96,8 +96,74 @@ const Page1 = () => {
                 className='m-0.5'
               />
               <p className='text-black text-xs'>Stock: Only 58 Vital Health Rings Left!</p>
+
+              
+            </div>
+            <div className='flex flex-col justify-center items-center bg-white'>
+            <p className='text-black font-bold text-lg'>As Seen On</p>
+            
+            {/* //Publication Container */}
+            <div className='flex border rounded-full border-black bg-white p-2 m-2'>
+              <Image
+                src="/assets/page1/abc.png"
+                alt="Forbes"
+                width={40}
+                height={40}
+                objectFit='contain'
+                className='m-0.5'
+              />
+              <Image
+                src="/assets/page1/fox.png"
+                alt="Forbes"
+                width={50}
+                height={40}
+                objectFit='contain'
+                className='m-0.5'
+              />
+              <Image
+                src="/assets/page1/usaToday.png"
+                alt="Forbes"
+                width={50}
+                height={40}
+                objectFit='contain'
+                className='m-0.5'
+              />
+              <Image
+                src="/assets/page1/cbs.png"
+                alt="Forbes"
+                width={60}
+                height={40}
+                objectFit='contain'
+                className='m-0.5'
+              />
+              <Image
+                src="/assets/page1/digJournal.png"
+                alt="Forbes"
+                width={50}
+                height={40}
+                objectFit='contain'
+                className='m-0.5'
+              />
+              <Image
+                src="/assets/page1/Today 1.png"
+                alt="Forbes"
+                width={50}
+                height={40}
+                objectFit='contain'
+                className='m-0.5'
+              />
+              <Image
+                src="/assets/page1/NBC.png"
+                alt="Forbes"
+                width={50}
+                height={40}
+                objectFit='contain'
+                className='m-0.5'
+              />
+            </div>
             </div>
 
+            
 
           </div>
         </div>
