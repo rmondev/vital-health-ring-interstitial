@@ -12,7 +12,7 @@ const Page2 = () => {
 
         // Mobile View
         <div className='relative'>
-          <div className='flex flex-col absolute justify-center items-center w-full mt-56 p-4'>
+          <div className='flex flex-col absolute justify-center items-center w-full mt-48 p-4'>
             <div className='mt-10'>
               <p className='text-black font-semibold text-xl text-center'>Understand Your Body&rsquo;s Language</p>
               <p className='text-black text-xs text-center pt-2'>
