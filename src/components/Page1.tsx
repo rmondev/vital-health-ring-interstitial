@@ -38,8 +38,8 @@ const Page1 = () => {
               <p className='font-bold text-gray-900 text-2xl'>It&#39;s More Than Just a Ring:</p>
               <p className='italic font-semibold text-gray-800 text-xl'>It&#39;s Your Personal Guide to a Better, Longer Life</p>
               {/* //Product Image Container */}
-              <div className='relative m-0 p-0'>
-                <div className='absolute -top-4 -ml-6'> {/* Adjusted top and left positioning */}
+              <div className='relative'>
+                <div className='absolute -top-4 -ml-6 pb-4'> {/* Adjusted top and left positioning */}
                   <Image
                     src="/assets/page1/product.png"
                     alt="Logo"
