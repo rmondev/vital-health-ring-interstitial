@@ -58,7 +58,6 @@ const ImageSection = () => {
               height={108}
               className="w-full h-full object-cover"
             />
-          
         </div>
       )}
     </>
