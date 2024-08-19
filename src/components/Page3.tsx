@@ -9,16 +9,27 @@ const ImageSection = () => {
     <>
       {isSmallScreen ? (
         <div className='relative'>
-          <div className='flex flex-col'>
-            <Image
-              src="/assets/page3/backgroundSml1.png"
-              alt="Page 2 Small"
-              layout="responsive"
-              width={320}
-              height={180}
-              className="w-full h-full object-cover"
-            />
-            <Image
+          <div className='flex flex-col absolute justify-center items-center w-full'>
+            
+              <p className='text-black font-semibold text-2xl bg-transparent mt-44 pb-2'>
+                Find us on TikTok Shop!
+                </p>
+              <p className='text-black text-lg bg-transparent text-center'>
+                By combining style, comfort, accuracy, and a comprehensive approach to health, the Vital Health Ring offers a superior experience compared to other health trackers on the market.
+              </p>
+            
+          </div>
+
+          <Image
+            src="/assets/page3/backgroundSml1.png"
+            alt="Page 2 Small"
+            layout="responsive"
+            width={320}
+            height={180}
+            className="w-full h-full object-cover"
+          />
+
+          <Image
             src="/assets/page3/backgroundSml2.png"
             alt="Page 2 Small"
             layout="responsive"
@@ -26,18 +37,29 @@ const ImageSection = () => {
             height={180}
             className="w-full h-full object-cover"
             />
-          </div>
        </div>
         
       ) : (
-        <Image
-          src="/assets/page3/background.png"
-          alt="Page 2"
-          layout="responsive"
-          width={960}
-          height={108}
-          className="w-full h-full object-cover"
-        />
+
+        <div className='relative'>
+          <div className='flex flex-col absolute justify-center items-center w-1/2 mt-28 ml-12'>
+            <p className='text-black font-semibold text-5xl bg-transparent mt-44 pb-2'>
+              Find us on TikTok Shop!
+              </p>
+            <p className='text-black text-3xl bg-transparent text-center'>
+              By combining style, comfort, accuracy, and a comprehensive approach to health, the Vital Health Ring offers a superior experience compared to other health trackers on the market.
+              </p>
+            </div>
+            <Image
+              src="/assets/page3/background.png"
+              alt="Page 2"
+              layout="responsive"
+              width={960}
+              height={108}
+              className="w-full h-full object-cover"
+            />
+          
+        </div>
       )}
     </>
   )
