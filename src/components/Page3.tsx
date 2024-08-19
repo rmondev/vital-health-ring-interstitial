@@ -9,7 +9,7 @@ const ImageSection = () => {
     <>
       {isSmallScreen ? (
         <div className='relative'>
-          <div className='flex flex-col absolute justify-center items-center w-full'>
+          <div className='flex flex-col absolute justify-center items-center w-full z-10'>
             
               <p className='text-black font-semibold text-xl bg-transparent mt-44 pb-2'>
                 Find us on TikTok Shop!
