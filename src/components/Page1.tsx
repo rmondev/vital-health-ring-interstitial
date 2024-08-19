@@ -82,7 +82,7 @@ const Page1 = () => {
 
 
             {/* //Button Footer Container */}
-            <div className='flex justify-center items-center bg-white w-full pt-2'>
+            <div className='flex justify-center items-center bg-white w-full pt-2 pl-3 pr-3'>
               <Image
                 src="/assets/page1/greenDot.svg"
                 alt="Secure"

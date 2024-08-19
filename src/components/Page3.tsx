@@ -9,12 +9,12 @@ const ImageSection = () => {
     <>
       {isSmallScreen ? (
         <div className='relative'>
-          <div className='flex flex-col absolute justify-center items-center w-full z-10'>
+          <div className='flex flex-col absolute justify-center items-center w-full z-10 pr-10 pl-10 pt-7'>
             
-              <p className='text-black font-semibold text-xl bg-transparent mt-44 pb-2'>
+              <p className='text-black font-semibold text-lg bg-transparent mt-44 pb-2'>
                 Find us on TikTok Shop!
                 </p>
-              <p className='text-black text-lg bg-transparent text-center'>
+              <p className='text-black text-sm bg-transparent text-center'>
                 By combining style, comfort, accuracy, and a comprehensive approach to health, the Vital Health Ring offers a superior experience compared to other health trackers on the market.
               </p>
             
