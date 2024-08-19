@@ -11,7 +11,7 @@ const ImageSection = () => {
         <div className='relative'>
           <div className='flex flex-col absolute justify-center items-center w-full'>
             
-              <p className='text-black font-semibold text-2xl bg-transparent mt-44 pb-2'>
+              <p className='text-black font-semibold text-xl bg-transparent mt-44 pb-2'>
                 Find us on TikTok Shop!
                 </p>
               <p className='text-black text-lg bg-transparent text-center'>
