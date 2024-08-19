@@ -275,7 +275,7 @@ const Page1 = () => {
 
 
             {/* //Publication Container */}
-            <div className='flex rounded-full justify-between items-center bg-white pl-20 pr-20 py-4 shadow-black shadow-2xl'>
+            <div className='flex rounded-full justify-between items-center bg-white pl-20 pr-20 mt-20 py-4 shadow-black shadow-2xl z-10'>
               <p className='text-black text-xl font-bold'>
                 As Seen On
               </p>
@@ -340,7 +340,7 @@ const Page1 = () => {
             </div>
           
 
-            <div className='bg-white h-40 pb-10'/>
+            
             
             <Image
               src="/assets/page1/backgroundLrg.png"
@@ -350,7 +350,7 @@ const Page1 = () => {
               height={108}
               className="w-full h-full object-cover"
             />
-            
+            <div className='bg-white h-40 pb-10'/>
          
         </div>
       )}
