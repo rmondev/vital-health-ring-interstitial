@@ -275,7 +275,7 @@ const Page1 = () => {
 
 
             {/* //Publication Container */}
-            <div className='flex rounded-full justify-between items-center bg-white pl-20 pr-20 mt-20 py-4 shadow-black shadow-2xl z-10'>
+            <div className='flex rounded-full justify-between items-center bg-white pl-20 pr-20 pt-10 py-4 shadow-black shadow-2xl z-10 pb-30'>
               <p className='text-black text-xl font-bold'>
                 As Seen On
               </p>
