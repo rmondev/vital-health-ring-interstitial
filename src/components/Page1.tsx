@@ -39,7 +39,7 @@ const Page1 = () => {
               <p className='italic font-semibold text-gray-800 text-xl'>It&#39;s Your Personal Guide to a Better, Longer Life</p>
               {/* //Product Image Container */}
               <div className='relative m-0 p-0'>
-                <div className='absolute -top-8 -ml-6'> {/* Adjusted top and left positioning */}
+                <div className='absolute -top-4 -ml-6'> {/* Adjusted top and left positioning */}
                   <Image
                     src="/assets/page1/product.png"
                     alt="Logo"
@@ -74,8 +74,8 @@ const Page1 = () => {
           <div className='flex justify-center items-center bg-white relative'>
             <button className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 justify-center items-center rounded-full w-3/5 border-black border flex flex-row relative">
               Save 50% Now!
-              <div className='h-7 w-7 border border-black opacity-40 bg-slate-400 rounded-full ml-7 relative'/>
-              <div className='absolute text-white top-1/2 left-auto right-10 transform -translate-y-1/2 translate-x-1/2'>{'->'}</div>
+              {/* <div className='h-7 w-7 border border-black opacity-40 bg-slate-400 rounded-full ml-7 relative'/>
+              <div className='absolute text-white top-1/2 left-auto right-10 transform -translate-y-1/2 translate-x-1/2'>{'->'}</div> */}
             </button>
           </div>
 
@@ -187,7 +187,7 @@ const Page1 = () => {
               
 
                 {/* //Rating Container */}
-                <div className='flex flex-row justify-center items-center bg-transparent'>
+                <div className='flex flex-row justify-center gap-2 items-center bg-transparent'>
                   <Image
                     src="/assets/page1/stars.svg"
                     alt="Logo"
@@ -215,7 +215,7 @@ const Page1 = () => {
                 
                 {/* //Button Section Container */}
 
-                <div className='flex flex-col justify-center items-center bg-white relative bg-transparent xl:p-12 lg:p-8 md:p-6'>
+                <div className='flex flex-col justify-center items-center bg-white relative bg-transparent xl:p-8 lg:p-6 md:p-4'>
                  
                 {/* //Button Container */}
                 <div className='flex justify-center items-center bg-white relative bg-transparent w-full'>

@@ -32,7 +32,7 @@ const Page2 = () => {
             height={180}
             className="w-full h-full object-cover"
           />
-          <div className='bg-white h-40'/>
+          <div className='bg-white h-52'/>
             
       
         </div>
