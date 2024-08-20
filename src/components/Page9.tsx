@@ -30,12 +30,19 @@ const Page9 = () => {
         </p>
 
         {/* Step 1 Video Section */}
-        <div className='flex rounded-lg p-2 bg-zinc-700 justify-center items-center m-6'>
+        <div className='flex'> 
+            <div className='flex rounded-lg p-2 bg-zinc-700 justify-center items-center m-6'>
+                <div className='absolute rounded-full h-[56px] w-[56px] bg-gray-500 mb-[160px] ml-[310px] z-10'>
+                        <p className='text-white font-light bg-transparent text-center text-3xl pt-[5px]'>
+                            01
+                        </p>
+                    </div>
                 <video width="600" controls preload="none">
                     <source src="/videos/VitalStep1.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>  
             </div>
+        </div>
 
         <div className='flex flex-col justify-center space-y-4 m-4'>
             <div className='flex justify-start'>
@@ -55,12 +62,19 @@ const Page9 = () => {
         </div>
 
         {/* Step 2 Video Section */}
-        <div className='flex rounded-lg p-2 bg-zinc-700 justify-center items-center m-6'>
+        <div className='flex'> 
+            <div className='flex rounded-lg p-2 bg-zinc-700 justify-center items-center m-6'>
+                <div className='absolute rounded-full h-[56px] w-[56px] bg-gray-500 mb-[160px] ml-[310px] z-10'>
+                        <p className='text-white font-light bg-transparent text-center text-3xl pt-[5px]'>
+                            02
+                        </p>
+                    </div>
                 <video width="600" controls preload="none">
                     <source src="/videos/VitalStep2.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>  
             </div>
+        </div>
 
         <div className='flex flex-col justify-center space-y-4 m-4'>
             <div className='flex justify-start'>
@@ -80,12 +94,19 @@ const Page9 = () => {
         </div>
 
         {/* Step 3 Video Section */}
-        <div className='flex rounded-lg p-2 bg-zinc-700 justify-center items-center m-6'>
+        <div className='flex'> 
+            <div className='flex rounded-lg p-2 bg-zinc-700 justify-center items-center m-6'>
+                <div className='absolute rounded-full h-[56px] w-[56px] bg-gray-500 mb-[160px] ml-[310px] z-10'>
+                        <p className='text-white font-light bg-transparent text-center text-3xl pt-[5px]'>
+                            03
+                        </p>
+                    </div>
                 <video width="600" controls preload="none">
                     <source src="/videos/VitalStep3.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>  
             </div>
+        </div>
 
         <div className='flex flex-col justify-center space-y-4 m-4'>
             <div className='flex justify-start'>
@@ -99,6 +120,8 @@ const Page9 = () => {
             <p className='text-white font-light text-lg'>  
                 • <span className='font-bold'>Share: </span>Share your data with other Vital Health Ring users and health care professionals.
             </p>
+        
+        
         </div>
     </div>      
     ) : (
@@ -113,14 +136,21 @@ const Page9 = () => {
         {/* Step 1 Video Section */}
         <div className='flex flex-row w-full bg-transparent'>
             <div className='flex flex-col w-2/5'>
-            <div className='flex rounded-lg p-2 bg-zinc-700 justify-center items-center m-20'>
-                <video width="600" controls preload="none">
-                    <source src="/videos/VitalStep1.mp4" type="video/mp4" />
-                    Your browser does not support the video tag.
-                </video>  
+                <div className='flex'>
+                    <div className='flex rounded-lg p-2 bg-zinc-700 justify-end m-20'>
+                        <div className='absolute rounded-full h-[56px] w-[56px] bg-gray-500 mt-[-20px] mr-[-20px] z-10'>
+                            <p className='text-white font-light bg-transparent text-center text-3xl pt-[5px]'>
+                                01
+                            </p>
+                        </div>
+                        <video width="600" controls preload="none">
+                            <source src="/videos/VitalStep1.mp4" type="video/mp4" />
+                            Your browser does not support the video tag.
+                        </video>  
+                    </div>
+                </div>
             </div>
-           
-            </div>
+
             <div className='flex flex-col w-1/2 space-y-4 -m-[16px]'>
                 <p className='text-white font-semibold text-3xl pt-24'>
                     Getting Started
@@ -155,11 +185,18 @@ const Page9 = () => {
             </div>
 
             <div className='flex flex-col w-2/5'>
-                <div className='flex rounded-lg p-2 bg-zinc-700 justify-center items-center m-20'>
-                    <video width="600" controls preload="none">
-                        <source src="/videos/VitalStep2.mp4" type="video/mp4" />
-                        Your browser does not support the video tag.
-                    </video>  
+                <div className='flex'>
+                    <div className='flex rounded-lg p-2 bg-zinc-700 justify-end m-20'>
+                        <div className='absolute rounded-full h-[56px] w-[56px] bg-gray-500 mt-[-20px] mr-[-20px] z-10'>
+                            <p className='text-white font-light bg-transparent text-center text-3xl pt-[5px]'>
+                                02
+                            </p>
+                        </div>
+                        <video width="600" controls preload="none">
+                            <source src="/videos/VitalStep2.mp4" type="video/mp4" />
+                            Your browser does not support the video tag.
+                        </video>  
+                    </div>
                 </div>
             </div>
         </div>
@@ -167,14 +204,20 @@ const Page9 = () => {
         {/* Step 3 Video Section */}
         <div className='flex flex-row w-full bg-transparent'>
             <div className='flex flex-col w-2/5'>
-            <div className='flex rounded-lg p-2 bg-zinc-700 justify-center items-center m-20'>
-                <video width="600" controls preload="none">
-                    <source src="/videos/VitalStep3.mp4" type="video/mp4" />
-                    Your browser does not support the video tag.
-                </video>  
-            </div>
-           
-            </div>
+                <div className='flex'>
+                        <div className='flex rounded-lg p-2 bg-zinc-700 justify-end m-20'>
+                            <div className='absolute rounded-full h-[56px] w-[56px] bg-gray-500 mt-[-20px] mr-[-20px] z-10'>
+                                <p className='text-white font-light bg-transparent text-center text-3xl pt-[5px]'>
+                                    03
+                                </p>
+                            </div>
+                            <video width="600" controls preload="none">
+                                <source src="/videos/VitalStep3.mp4" type="video/mp4" />
+                                Your browser does not support the video tag.
+                            </video>  
+                        </div>
+                    </div>
+                </div>
             <div className='flex flex-col w-1/2 space-y-4 -m-[16px]'>
                 <p className='text-white font-semibold text-3xl pt-24'>
                     The App
