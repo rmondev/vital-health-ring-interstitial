@@ -74,7 +74,7 @@ const Page8 = () => {
                 </p>
         </div> */}
         <div className='flex flex-row w-full bg-white'>
-            <div className='w-1/2 ml-14 mb-32'>
+            <div className='w-1/2 ml-14 mb-12'>
                 <div className='relative flex flex-row justify-center items-center'>
                     
                     <div className='border-2 border-gray-400 h-[380px] rounded-xl w-[230px] '>
@@ -128,6 +128,40 @@ const Page8 = () => {
               </p>
              </div>
         </div>
+
+         {/* //Button Container */}
+         <div className='flex justify-center items-center bg-white relative'>
+            <button className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 justify-center items-center rounded-full w-1/6 border-black border flex flex-row relative">
+              Save 50% Now!
+              {/* <div className='h-7 w-7 border border-black opacity-40 bg-slate-400 rounded-full ml-7 relative'/>
+              <div className='absolute text-white top-1/2 left-auto right-10 transform -translate-y-1/2 translate-x-1/2'>{'->'}</div> */}
+            </button>
+          </div>
+
+          {/* //Button Footer Container */}
+          <div className='flex justify-center items-center bg-white w-full p-3'>
+              <Image
+                src="/assets/page1/greenDot.svg"
+                alt="Secure"
+                width={10}
+                height={10}
+                objectFit='contain'
+                className='m-1.5'
+              />
+              <p className='text-black text-xs font-bold'>Ships by 22nd December |</p>
+              <Image
+                src="/assets/page1/hourGlass.png"
+                alt="Secure"
+                width={10}
+                height={10}
+                objectFit='contain'
+                className='m-1'
+              />
+              <p className='text-black text-xs font-bold'>Stock: Only 58 Vital Health Rings Left!</p>
+
+              
+            </div>
+
     </div>
     
    )}
