@@ -10,7 +10,7 @@ const Page4 = () => {
 
    {isSmallScreen ? (
     <div className='relative'>
-        <div className='flex flex-col justify-center items-center bg-white p-4'>
+        <div className='flex flex-col justify-center items-center bg-white p-4 pt-1'>
             <p className='text-black font-semibold text-xl text-center pt-2'>
                 Your Holistic Wellness Companion
                 </p>
@@ -19,7 +19,7 @@ const Page4 = () => {
                 </p>
         </div>
 
-        <div className='flex flex-col bg-white justify-center items-center'>
+        <div className='flex flex-col bg-white justify-center items-center pt-1'>
             <div className='flex flex-row relative rounded-xl h-[300px] w-[220px] border-3 border-gray-400 mb-20'>
 
             <Image

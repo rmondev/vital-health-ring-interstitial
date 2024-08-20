@@ -11,47 +11,41 @@ const Page5 = () => {
     <div className='relative'>
     <div className='flex flex-col justify-center items-center bg-white p-4'>
         <p className='text-black font-semibold text-xl text-center pt-2'>
-            Your Body Speaks Volumes
+            The Perfect Balance Between Fitness and Recovery     
             </p>
         <p className='text-black text-lg text-center font-light pt-2'>
-            Understand your stress levels by tracking heart rate variability to identify patterns and triggers. Implement stress-reducing techniques to enhance your mental health and overall well-being.
+            Whether you&#39;re a seasoned athlete or just starting your fitness journey, the Vital Health Ring is the perfect workout companion. Monitor heart rate, calories burned, and activity levels to optimize your performance, you can prevent injuries, and achieve your fitness goals faster.
             </p>
     </div>
 
-    <div className='flex flex-col bg-white justify-center items-center'>
+    <div className='flex flex-col bg-white justify-center items-center pt-1'>
         <div className='flex flex-row relative rounded-xl h-[300px] w-[220px] border-3 border-gray-400 mb-20'>
-
-        <Image
-            src='/assets/page6/manSml.png'
-            alt='Ring'
-            layout='responsive'
-            width={300}
-            height={480}
-            className='w-full h-full object-cover ml-[-70px] mt-[8px]'
-        />
-
-        <div className='absolute h-40 w-36 ml-40 '>
-
-            <Image
-                src='/assets/page6/heartSml.png'
-                alt='Ring'
-                layout='responsive'
-                width={150}
-                height={240}
-                className='w-full h-full object-cover absolute ml-[-20px] mt-[10px]'
-            />
-
-            <Image
-                src='/assets/page6/heartChartSml.png'
-                alt='Ring'
-                layout='responsive'
-                width={150}
-                height={240}
-                className='w-full h-full object-cover absolute ml-[-20px] mt-[144px]'
-            />
-
-
-        </div>
+            <div className='absolute h-40 w-36 -ml-[55px]'>
+                    <Image
+                        src='/assets/page5/caloriesSml.png'
+                        alt='Ring'
+                        layout='responsive'
+                        width={150}
+                        height={240}
+                        className='w-full h-full object-cover absolute ml-[-20px] mt-[10px]'
+                    />
+                    <Image
+                        src='/assets/page5/caloriesChartSml.png'
+                        alt='Ring'
+                        layout='responsive'
+                        width={150}
+                        height={240}
+                        className='w-full h-full object-cover absolute ml-[-20px] mt-[144px]'
+                    />
+                </div>
+                <Image
+                    src='/assets/page5/womanRunningSml.png'
+                    alt='Ring'
+                    layout='responsive'
+                    width={300}
+                    height={480}
+                    className='w-full h-full object-cover mt-[12px] absolute -ml-[-70px]'
+                />
         </div>
     </div>
 </div>
