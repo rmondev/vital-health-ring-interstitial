@@ -1,10 +1,21 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { useMediaQuery } from 'react-responsive'
 import Image from 'next/image'
 
 const Page6 = () => {
 
-    const isSmallScreen = useMediaQuery({ query: '(max-width: 640px)' })
+    const [isClient, setIsClient] = useState(false);
+
+    useEffect(() => {
+      setIsClient(true);
+    }, []);
+  
+    const isSmallScreen = useMediaQuery({ query: '(max-width: 640px)' });
+  
+    if (!isClient) {
+      // Return a loading state or the server-compatible version of the HTML
+      return <div className="h-screen">Loading...</div>;
+    }
   return (
    <>
    {isSmallScreen ? (
