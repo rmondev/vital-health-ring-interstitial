@@ -170,7 +170,7 @@ const Page9 = () => {
         {/* Step 2 Video Section */}
         <div className='flex flex-row w-full bg-transparent pt-20'>
             <div className='flex flex-col w-1/2 space-y-4 m-20'>
-                <p className='text-white font-semibold text-3xl pt-24'>
+                <p className='text-white font-semibold text-3xl pt-16'>
                 Wearing Your Ring
                 </p>
                 <p className='text-white font-light text-xl'>  
