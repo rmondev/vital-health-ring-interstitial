@@ -88,14 +88,14 @@ const Page12 = () => {
 
 
             {/* //Button Footer Container */}
-                <div className='flex justify-center items-center bg-white w-full'>
+                <div className='flex justify-center items-center bg-white w-full gap-1'>
                 <Image
                     src="/assets/page1/greenDot.svg"
                     alt="Secure"
                     width={10}
                     height={10}
                     objectFit='contain'
-                    className='m-1.5'
+                    //className='m-1.5'
                 />
                 <p className='text-black text-xs font-bold'>Ships by 22nd December |</p>
                 <Image
@@ -104,7 +104,7 @@ const Page12 = () => {
                     width={10}
                     height={10}
                     objectFit='contain'
-                    className='m-1'
+                    //className='m-1'
                 />
                 <p className='text-black text-xs font-bold'>Stock: Only 58 Vital Health Rings Left!</p>
 
