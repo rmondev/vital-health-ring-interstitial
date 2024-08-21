@@ -50,7 +50,7 @@ const Page12 = () => {
     }
 
     const settings = {
-      //arrows: true,
+      arrows: false,
       //fade: true,
       infinite: true,
       speed: 500,
