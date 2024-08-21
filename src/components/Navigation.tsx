@@ -15,8 +15,8 @@ function Navigation() {
           <Image
             src="/assets/global/logo.png"
             alt="Logo"
-            width={90}
-            height={90}
+            width={120}
+            height={120}
           />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
