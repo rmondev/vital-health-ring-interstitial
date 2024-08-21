@@ -1,11 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import { useMediaQuery } from 'react-responsive';
-import LvlsOfWellness from './LvlsOfWellness';
-import LvlsOfWellnessSml from './LvlsOfWellnessSml';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
+import LvlsOfWellness from './LvlsOfWellness';
+import LvlsOfWellNessSml from './LvlsOfWellNessSml';
 
 const Page10 = () => {
   const [isClient, setIsClient] = useState(false);
@@ -72,7 +71,7 @@ const Page10 = () => {
         <Slider {...settings}>
         {mediaLinks.map((media, index) => (
             <div key={index}>
-            <LvlsOfWellnessSml media={media} />
+            <LvlsOfWellNessSml media={media} />
             </div>
         ))}
         </Slider>

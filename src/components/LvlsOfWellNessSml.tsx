@@ -7,7 +7,7 @@ type Props = {
 }
 
 // Pass Props to LvlsOfWellness Component
-const LvlsOfWellnessSml: React.FC<Props> = ({ media }) => {
+const LvlsOfWellNessSml: React.FC<Props> = ({ media }) => {
   const [isLoaded, setIsLoaded] = useState(false);
 
   useEffect(() => {
@@ -24,13 +24,7 @@ const LvlsOfWellnessSml: React.FC<Props> = ({ media }) => {
  
        
     <div className={`flex flex-col gap-2 mb-4 bg-white justify-center items-center${isLoaded ? 'fade-in' : ''}`}>
-        
-
             <p className='text-black bg-white text-lg text-center font-semibold'>{media[3]}</p>
-            
-
-        
-        
       <video 
         key={media[1]} 
         className="relative rounded-2xl shadow-lg bg-white" 
@@ -74,4 +68,4 @@ const LvlsOfWellnessSml: React.FC<Props> = ({ media }) => {
   );
 }
 
-export default LvlsOfWellnessSml;
+export default LvlsOfWellNessSml;
