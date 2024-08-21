@@ -14,6 +14,9 @@ import Page7 from "@/components/Page7";
 import Page9 from "@/components/Page9";
 import Page10 from "@/components/Page10";
 import Page11 from "@/components/Page11";
+import Page12 from "@/components/Page12";
+
+
 
 export default function Home() {
   return (
@@ -31,6 +34,7 @@ export default function Home() {
     <Page9/>
     <Page10/>
     <Page11/>
+    <Page12/>
     </>
   )
 }

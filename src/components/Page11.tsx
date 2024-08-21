@@ -114,7 +114,7 @@ const Page11 = () => {
 
 
             {/* //Button Footer Container */}
-                <div className='flex justify-center items-center bg-white w-full pt-2 pl-3 pr-3'>
+                <div className='flex justify-center items-center bg-white w-full pt-2 pl-3 pr-3 pb-4'>
                 <Image
                     src="/assets/page1/greenDot.svg"
                     alt="Secure"
@@ -223,7 +223,7 @@ const Page11 = () => {
                 </table>
 
                 {/* //Button Container */}
-                <div className='flex justify-center items-center bg-white relative pt-10'>
+                <div className='flex justify-center items-center bg-slate-100 relative pt-10'>
                     <button className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-8  justify-center  rounded-full xl:w-1/6 md:w-1/6 lg:w-1/4 border-black border flex flex-row relative">
                     Save 50% Now!
                     {/* <div className='h-7 w-7 border border-black opacity-40 bg-slate-400 rounded-full ml-7 relative'/>
@@ -234,7 +234,7 @@ const Page11 = () => {
 
 
                 {/* //Button Footer Container */}
-                <div className='flex justify-center items-center bg-white w-full pt-2 pl-3 pr-3'>
+                <div className='flex justify-center items-center bg-slate-100 w-full pt-2 pl-3 pr-3'>
                     <Image
                         src="/assets/page1/greenDot.svg"
                         alt="Secure"
