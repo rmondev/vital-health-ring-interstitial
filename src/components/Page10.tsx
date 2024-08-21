@@ -61,8 +61,6 @@ const Page10 = () => {
   console.log('Slider settings:', settings); // Debugging line
 
   return (
-
-    
     <>
       {isSmallScreen ? (
         <div className="flex flex-col justify-center items-center bg-white">
@@ -105,10 +103,9 @@ const Page10 = () => {
             )}
           </div>
 
-        {/* <div className="h-[2px] w-5/6 bg-black mt-4" /> */}
-
           <div className="bg-transparent flex flex-row mt-20">
            
+            {/* Load Media Carousel Component */}
             <LvlsOfWellness media={mediaLinks[selectedComponent - 1]} />
           </div>
         </div>
