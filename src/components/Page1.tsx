@@ -39,7 +39,7 @@ const Page1 = () => {
               <p className='italic font-semibold text-gray-800 text-xl'>It&#39;s Your Personal Guide to a Better, Longer Life</p>
               {/* //Product Image Container */}
               <div className='relative'>
-                <div className='absolute -top-10 -ml-6'> {/* Adjusted top and left positioning */}
+                <div className='absolute -mt-[60px] -ml-6'> {/* Adjusted top and left positioning */}
                   <Image
                     src="/assets/page1/product.png"
                     alt="Logo"
