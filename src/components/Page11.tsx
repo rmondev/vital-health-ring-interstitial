@@ -39,8 +39,8 @@ const Page11 = () => {
 
             {/* Table Container */}
 
-            <div className='flex'>
-            <table className='w-full border-collapse rounded-3xl overflow-hidden' border={1} cellPadding={15} cellSpacing={2}>
+            <div className='flex mt-10'>
+            <table className='xl:w-[1200px] lg:w-[600px] md:w-[200px] border-collapse rounded-3xl overflow-hidden' border={1} cellPadding={15} cellSpacing={2}>
                 <thead>
                     <tr>
                         <th className='bg-gray-900'></th>
