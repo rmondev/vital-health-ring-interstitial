@@ -12,27 +12,27 @@ const Page10 = () => {
   
   const mediaLinks = [
     [
-      '/assets/comp1/image1.png',
+      '/assets/page10/comp1/image1.png',
       '/videos/Comp1Vid.mp4',
-      '/assets/comp1/image2.png',
+      '/assets/page10/comp1/image2.png',
       'Wakeup Feeling Refreshed',
     ],
     [
-      '/assets/comp2/image1.png',
+      '/assets/page10/comp2/image1.png',
       '/videos/Comp2Vid.mp4',
-      '/assets/comp2/image2.png',
+      '/assets/page10/comp2/image2.png',
         'Get Active',
     ],
     [
-      '/assets/comp3/image1.png',
+      '/assets/page10/comp3/image1.png',
       '/videos/Comp3Vid.mp4',
-      '/assets/comp3/image2.png',
+      '/assets/page10/comp3/image2.png',
         'Stay Informed',
     ],
     [
-      '/assets/comp4/image1.png',
+      '/assets/page10/comp4/image1.png',
       '/videos/Comp4Vid.mp4',
-      '/assets/comp4/image2.png',
+      '/assets/page10/comp4/image2.png',
         'Relax and Recover',
     ],
   ];
