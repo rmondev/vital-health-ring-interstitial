@@ -16,6 +16,7 @@ import Page10 from "@/components/Page10";
 import Page11 from "@/components/Page11";
 import Page12 from "@/components/Page12";
 import Page13 from "@/components/Page13";
+import Footer from "@/components/Footer";
 
 
 
@@ -37,6 +38,7 @@ export default function Home() {
     <Page11/>
     <Page12/>
     <Page13/>
+    <Footer/>
     </>
   )
 }

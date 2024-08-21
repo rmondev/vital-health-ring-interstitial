@@ -13,7 +13,7 @@ function Navigation() {
       <Container>
         <Navbar.Brand href="#home">
           <Image
-            src="/assets/page1/logo.png"
+            src="/assets/global/logo.png"
             alt="Logo"
             width={90}
             height={90}
