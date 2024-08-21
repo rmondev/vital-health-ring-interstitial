@@ -48,7 +48,7 @@ const Page10 = () => {
   }
 
   const settings = {
-    arrows: true,
+    //arrows: true,
     fade: true,
     infinite: true,
     speed: 500,
