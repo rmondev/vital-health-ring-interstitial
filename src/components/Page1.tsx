@@ -18,7 +18,7 @@ const Page1 = () => {
   return (
     <>
       {isSmallScreen ? (
-        //Mobile View
+        // MobileView
         <div className='relative'>
           {/* // Rating Container */}
           <div className='flex flex-col absolute w-full justify-start'>
